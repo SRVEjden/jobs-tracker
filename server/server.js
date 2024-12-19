@@ -1,3 +1,4 @@
+require('dotenv').config();
 const routes = require('./routes/crud/routes.js');
 const middlewares = require('./middleware/middlewares.js');
 const express = require('express');
